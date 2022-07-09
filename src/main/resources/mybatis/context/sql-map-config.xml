@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- IBATIS RESOURCE CONFIGURATION -->
+<configuration>
+	
+	<!-- 타입 Alias -->
+	<typeAliases>
+		<typeAlias type="app.backend.common.Payload" alias="Payload" />
+	</typeAliases>
+
+	<mappers>
+		<!-- user mybatis mapping file path configuration -->
+		<mapper resource="mybatis/common/user/user_mapper.xml"/>
+	</mappers>
+</configuration>
